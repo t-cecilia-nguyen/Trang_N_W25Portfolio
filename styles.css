@@ -136,7 +136,7 @@ nav ul li a:hover, .header-right i:hover {
 
 .header-right a {
     color: var(--softBeige);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -183,8 +183,8 @@ nav ul li a:hover, .header-right i:hover {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    border: 2px solid var(--lightTeal);
-    color: var(--lightTeal);
+    border: 2px solid var(--neonCyan);
+    color: var(--neonCyan);
     text-decoration: none;
     border-radius: 5px;
     transition: 0.3s;
@@ -193,7 +193,7 @@ nav ul li a:hover, .header-right i:hover {
 }
 
 .about-btn:hover {
-    background-color: var(--lightTeal);
+    background-color: var(--neonCyan);
     color: var(--deepNavy);
 }
 
@@ -365,7 +365,7 @@ p span { animation-delay: 1.4s; }
     right: 30px;
 }
 
-/* PROJECTS SECTION */
+/* OTHER PROJECTS SECTION */
 
 .other-projects {
     text-align: center;
@@ -547,7 +547,6 @@ p span { animation-delay: 1.4s; }
     height 0s linear 0.4s,
     transform 0.3s ease, 
     background-color 0.3s ease;
-
 }
 
 .hidden-project.visible {
