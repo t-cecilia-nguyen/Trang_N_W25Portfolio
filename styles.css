@@ -335,8 +335,7 @@ p span { animation-delay: 1.4s; }
 }
 
 .icon {
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 10px 5px 0px;
     display: flex;
     gap: 15px;
 }
