@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!isExpanded) {
             hiddenProjects.forEach((project, index) => {
-                project.style.display = "flex"; // Ensure it's visible before animation
+                project.style.display = "flex"; // Visible before animation
                 
                 // Show header & paragraph after fade-in starts
                 setTimeout(() => {

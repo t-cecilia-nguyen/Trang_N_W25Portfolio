@@ -267,11 +267,49 @@ p span { animation-delay: 1.4s; }
 .cta-btn { animation-delay: 1.5s; }
 
 
+/* ACADEMIC CREDENTIALS */
+
+#academic-credentials {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.academic-credentials-container {
+    padding: 30px 30px 0px;
+}
+
+#academic-credentials h2 {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--lightTeal);
+}
+
+th {
+    background-color: var(--darkTurquoise);
+}
+
+td a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* ACADEMIC WORK EXPERIENCES */
 
 #projects {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0px;
 }
 
 .projects-heading {
@@ -396,14 +434,15 @@ p span { animation-delay: 1.4s; }
 
 /* OTHER PROJECTS SECTION */
 
-.other-projects {
+#capstone-documentation {
     text-align: center;
+    padding-top: 50px;
 }
 
-.other-projects h2 {
+#capstone-documentation h2 {
     font-size: 24px;
     margin-bottom: 50px;
-    color: var(--darkTurquoise);
+    color: inherit;
 }
 
 .project {
@@ -624,31 +663,3 @@ p span { animation-delay: 1.4s; }
     font-family: "inconsolata", serif;
     font-size: 0.8em;
 }
-
-/* CAPSTONE PAGE */
-
-.capstone-project-summary-info {
-    padding: 20px;
-    border-radius: 10px;
-    width: 800px;
-}
-
-.capstone-project-summary-info h1 {
-    font-size: 1.4em;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-@media (max-width: 800px) {
-    .other-projects-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 500px) {
-    .other-projects-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
