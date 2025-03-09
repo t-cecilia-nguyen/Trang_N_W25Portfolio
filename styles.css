@@ -249,7 +249,7 @@ nav ul li a:hover, .header-right i:hover {
 .hello-container .letter:nth-child(5) { animation-delay: 0.5s; }
 .hello-container .letter:nth-child(6) { animation-delay: 0.6s; }
 
-h1 span, p span, .cta-btn {
+h1 span, p span{
     opacity: 0;
     transform: translateY(-50px);
     display: inline-block;
@@ -264,8 +264,6 @@ h1 span:nth-child(5) { animation-delay: 1.1s; }
 h1 span:nth-child(6) { animation-delay: 1.2s; }
 h1 span:nth-child(7) { animation-delay: 1.3s; }
 p span { animation-delay: 1.4s; }
-.cta-btn { animation-delay: 1.5s; }
-
 
 /* ACADEMIC CREDENTIALS */
 
