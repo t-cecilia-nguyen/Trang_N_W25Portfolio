@@ -42,7 +42,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#academic-credentials">Academic Credentials</a></li>
                 <li><a href="#projects">Academic Work Experiences</a></li>
-                <li><a href="#professional-summary">Professional Summary</a></li>
+                <li><a href="#professional">Professional Summary</a></li>
             </ul>
         </nav>
         <div class="header-right">
@@ -94,45 +94,49 @@
                     <thead>
                         <tr>
                             <th>Award</th>
-                            <th>Expected Graduation Date</th>
+                            <th>Document</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <!-- Advanced Diploma -->
                         <tr>
                             <td>Advanced Diploma</td>
-                            <td>May 2025</td>
+                            <td>Expected Graduation May 2025</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Dean's List Table -->
-            <div class="academic-credentials-container">
-                <table>
-                    <thead>
+                        <!-- Transcript -->
                         <tr>
-                            <th class="semester-column">Award</th>
-                            <th>Fall 2022</th>
-                            <th>Winter 2023</th>
-                            <th>Fall 2023</th>
-                            <th>Winter 2024</th>
-                            <th>Fall 2024</th>
-                            <th>Winter 2025</th>
+                            <td>Unofficial Transcript</td>
+                            <td><a href="./assets/unofficial_transcript.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
-                    </thead>
-                    <tbody>
+                        <!-- Dean's List -->
                         <tr>
-                            <td>Dean's List</td>
-                            <td><a href="./assets/Dean_letter_Fall_2022.pdf" target="_blank"><i class="fa-solid fa-check"></i></a></td>
-                            <td><a href="./assets/Dean_letter_Winter_2023.pdf" target="_blank"><i class="fa-solid fa-check"></i></a></td>
-                            <td><a href="./assets/Dean_letter_Fall_2023.pdf" target="_blank"><i class="fa-solid fa-check"></i></a></td>
-                            <td><a href="./assets/Dean_letter_Winter_2024.pdf" target="_blank"><i class="fa-solid fa-check"></i></a></td>
-                            <td><a href="./assets/Dean_letter_Fall_2024.pdf" target="_blank"><i class="fa-solid fa-check"></i></a></td>
+                            <td>Dean's List (Fall 2022)</td>
+                            <td><a href="./assets/Dean_letter_Fall_2022.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Dean's List (Winter 2023)</td>
+                            <td><a href="./assets/Dean_letter_Winter_2023.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Dean's List (Fall 2023)</td>
+                            <td><a href="./assets/Dean_letter_Fall_2023.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Dean's List (Winter 2024)</td>
+                            <td><a href="./assets/Dean_letter_Winter_2024.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Dean's List (Fall 2024)</td>
+                            <td><a href="./assets/Dean_letter_Fall_2024.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Dean's List (Winter 2025)</td>
                             <td>In progress</td>
                         </tr>
                     </tbody>
                 </table>
-            </div>            
+            </div>
+            
         </section>
 
         <!-- Academic Work Experiences -->
@@ -162,9 +166,8 @@
                         <a href="https://github.com/t-cecilia-nguyen/event_management_system" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" target="_blank">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
+                        <a href="https://github.com/t-cecilia-nguyen/event_management_system/archive/refs/heads/main.zip" target="_blank">
+                            <i class="fa-solid fa-download"></i>
                     </div>
                     
                 </div>
@@ -198,9 +201,8 @@
                         <a href="https://github.com/t-cecilia-nguyen/travel-booking-platform" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" target="_blank">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
+                        <a href="https://github.com/t-cecilia-nguyen/travel-booking-platform/archive/refs/heads/main.zip" target="_blank">
+                            <i class="fa-solid fa-download"></i>
                     </div>
                     
                 </div>
@@ -236,9 +238,8 @@
                         <a href="https://github.com/t-cecilia-nguyen/Learning-Path-Creator" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" target="_blank">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
+                        <a href="https://github.com/t-cecilia-nguyen/learning-path-creator/archive/refs/heads/main.zip" target="_blank">
+                            <i class="fa-solid fa-download"></i>
                     </div>
                     
                 </div>
@@ -316,167 +317,195 @@
                 </div>
             </div>
 
-        <!-- Capstone Project -->
-        <div class="container-project">
-            <div class="content-project">
-                <h2>Capstone Project</h2>
-                <h1><a href="https://github.com/t-cecilia-nguyen/budget_boss" target="_blank">Budget Boss</a></h1>
-                <div class="description-project">
-                    <p>
-                        A mobile app for tracking income, managing expenses, and optimizing savings. 
-                        Built with React Native and Expo, it features secure authentication, 
-                        budget planning, and expense categorization, 
-                        integrating the YNAB API for real-time insights.
-                    </p>               
+            <!-- Capstone Project -->
+            <div class="container-project">
+                <div class="content-project">
+                    <h2>Capstone Project</h2>
+                    <h1><a href="https://github.com/t-cecilia-nguyen/budget_boss" target="_blank">Budget Boss</a></h1>
+                    <div class="description-project">
+                        <p>
+                            A mobile app for tracking income, managing expenses, and optimizing savings. 
+                            Built with React Native and Expo, it features secure authentication, 
+                            budget planning, and expense categorization, 
+                            integrating the YNAB API for real-time insights.
+                        </p>               
+                    </div>
+                    <div class="tags-feature">
+                        <span>React Native</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>SQLite</span>
+                    </div>
+                    
+                    <div class="icon">
+                        <a href="https://github.com/t-cecilia-nguyen/budget_boss" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://github.com/t-cecilia-nguyen/budget_boss/archive/refs/heads/main.zip" target="_blank">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="tags-feature">
-                    <span>React Native</span>
-                    <span>JavaScript</span>
-                    <span>Python</span>
-                    <span>Flask</span>
-                    <span>SQLite</span>
-                </div>
-                
-                <div class="icon">
+                <div class="image-feature">
                     <a href="https://github.com/t-cecilia-nguyen/budget_boss" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <img src="./assets/budget_boss_ss.png" alt="budget boss picture">
                     </a>
                 </div>
             </div>
-            <div class="image-feature">
-                <a href="https://github.com/t-cecilia-nguyen/budget_boss" target="_blank">
-                    <img src="./assets/image_2.jpg" alt="budget boss picture">
+        </section>
+
+        <section id="capstone-documentation">
+            <h2>Capstone Project Documentation</h2>
+            <div class="other-projects-container">
+                <!-- Other Projects always visible -->
+                <a href="./assets/F24_T108_Project Summary.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card">
+                        <div class="card-header">
+                            <h3>Project Summary</h3>
+                        </div>
+                        <p>This document provides a summary understanding of the high-level vision of our project goals.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>  
+                    </div>
                 </a>
+        
+                <a href="./assets/F24_T108_Project Vision 1.4.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card">
+                        <div class="card-header">
+                            <h3>Project Vision</h3>
+                        </div>
+                        <p>This document outlines the overarching vision of the project, defining the project's purpose, goals, and value for users.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>  
+                    </div>
+                </a>
+
+                <a href="./assets/F24-T108_High Level Requirements 1.5.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card">
+                        <div class="card-header">
+                            <h3>Project Requirements</h3>
+                        </div>
+                        <p>This document outlines the system needs, including a business context diagram and scope statements.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>
+                    </div>
+                </a>
+        
+                <!-- Other Project Hidden -->
+                <a href="./assets/W25_T108_Project Plan_v2.0.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card hidden-project">
+                        <div class="card-header">
+                            <h3>Project Plan</h3>
+                        </div>
+                        <p>This document outlines project objectives, deliverables, timelines, risks, communication, roles, and approval processes for successful execution.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./assets/F24_T108_RequirementsAnalysis_Design 1.0.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card hidden-project">
+                        <div class="card-header">
+                            <h3>Requirements Analysis and Design</h3>
+                        </div>
+                        <p>This documents identifies, analyzes, and validates stakeholder needs to create a plan that meets their expectations.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./assets/F24_T108_MockUp.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card hidden-project">
+                        <div class="card-header">
+                            <h3>Mockups</h3>
+                        </div>
+                        <p>A visual model of the project used to showcase its look and function. Made with Figma.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./assets/T108_ProjectStatusReport.pdf" target="_blank" class="card-link">
+                    <div class="other-project-card hidden-project">
+                        <div class="card-header">
+                            <h3>Status Reports</h3>
+                        </div>
+                        <p>A summary of the project's progress, comparing it to the Project Plan and highlighting key issues and risks.</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" target="_blank" class="card-link">
+                    <div class="other-project-card hidden-project">
+                        <div class="card-header">
+                            <h3>System Implementation</h3>
+                        </div>
+                        <p>#</p>
+                        <div class="tech-stack">
+                            <span><i class="fa-regular fa-file-pdf"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- <a href="#" target="_blank" class="card-link">
+                    <div class="other-project-card hidden-project">
+                        <div class="card-header">
+                            <h3>#</h3>
+                        </div>
+                        <p>#</p>
+                        <div class="tech-stack">
+                            <span>#</span>
+                        </div>
+                    </div>
+                </a> -->
+
             </div>
-        </div>
-    </section>
-
-    <section id="capstone-documentation">
-        <h2>Capstone Project Documentation</h2>
-        <div class="other-projects-container">
-            <!-- Other Projects always visible -->
-            <a href="./assets/F24_T108_Project Summary.pdf" target="_blank" class="card-link">
-                <div class="other-project-card">
-                    <div class="card-header">
-                        <h3>Project Summary</h3>
-                    </div>
-                    <p>This document provides a summary understanding of the high-level vision of our project goals.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>  
-                </div>
-            </a>
-    
-            <a href="./assets/F24_T108_Project Vision 1.4.pdf" target="_blank" class="card-link">
-                <div class="other-project-card">
-                    <div class="card-header">
-                        <h3>Project Vision</h3>
-                    </div>
-                    <p>This document outlines the overarching vision of the project, defining the project's purpose, goals, and value for users.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>  
-                </div>
-            </a>
-
-            <a href="./assets/F24-T108_High Level Requirements 1.5.pdf" target="_blank" class="card-link">
-                <div class="other-project-card">
-                    <div class="card-header">
-                        <h3>Project Requirements</h3>
-                    </div>
-                    <p>This document outlines the system needs, including a business context diagram and scope statements.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>
-                </div>
-            </a>
-    
-            <!-- Other Project Hidden -->
-            <a href="./assets/W25_T108_Project Plan_v2.0.pdf" target="_blank" class="card-link">
-                <div class="other-project-card hidden-project">
-                    <div class="card-header">
-                        <h3>Project Plan</h3>
-                    </div>
-                    <p>This document outlines project objectives, deliverables, timelines, risks, communication, roles, and approval processes for successful execution.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="./assets/F24_T108_RequirementsAnalysis_Design 1.0.pdf" target="_blank" class="card-link">
-                <div class="other-project-card hidden-project">
-                    <div class="card-header">
-                        <h3>Requirements Analysis and Design</h3>
-                    </div>
-                    <p>This documents identifies, analyzes, and validates stakeholder needs to create a plan that meets their expectations.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="./assets/F24_T108_MockUp.pdf" target="_blank" class="card-link">
-                <div class="other-project-card hidden-project">
-                    <div class="card-header">
-                        <h3>Mockups</h3>
-                    </div>
-                    <p>A visual model of the project used to showcase its look and function. Made with Figma.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="./assets/T108_ProjectStatusReport.pdf" target="_blank" class="card-link">
-                <div class="other-project-card hidden-project">
-                    <div class="card-header">
-                        <h3>Status Reports</h3>
-                    </div>
-                    <p>A summary of the project's progress, comparing it to the Project Plan and highlighting key issues and risks.</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" target="_blank" class="card-link">
-                <div class="other-project-card hidden-project">
-                    <div class="card-header">
-                        <h3>System Implementation</h3>
-                    </div>
-                    <p>#</p>
-                    <div class="tech-stack">
-                        <span><i class="fa-regular fa-file-pdf"></i></span>
-                    </div>
-                </div>
-            </a>
-
-            <!-- <a href="#" target="_blank" class="card-link">
-                <div class="other-project-card hidden-project">
-                    <div class="card-header">
-                        <h3>#</h3>
-                    </div>
-                    <p>#</p>
-                    <div class="tech-stack">
-                        <span>#</span>
-                    </div>
-                </div>
-            </a> -->
-
-        </div>
-        <button class="show-more"><span>Show More</span></button>
-    </section>
+            <button class="show-more"><span>Show More</span></button>
+        </section>
 
         <!-- Professional Summary -->
-        <section id="professional-summary">
-            <div class="contact-container">
-                <h2>Professional Summary</h2>
-                <p>Professional Summary</p>
+        <section id="professional">
+            <div class="professional-container">
+                <h2>PROFESSIONAL SUMMARY</h2>
+                
+                <div class="experience-container">
+                    <div class="experience-date">
+                        <p>Sept 2020 - Present</p>
+                    </div>
+                    <div class="experience-details">
+                        <p><strong>Data Entry & Lab Attendant 1</strong> &bull; Public Health Ontario</p><br>
+                        <p>
+                            &bull; Scanned and organized health records to support patient information management, ensuring compliance with privacy regulations and data security protocols. <br>
+                            &bull; Processed and transferred specimens between departments, expediting analysis for healthcare and research teams. <br>
+                            &bull; Validated patient data and sample requisitions in the Laboratory Information System (LIS) and Public Health systems, ensuring data accuracy and efficient workflows.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="experience-container">
+                    <div class="experience-date">
+                        <p>Feb 2017 - Aug 2019</p>
+                    </div>
+                    <div class="experience-details">
+                        <p><strong>Assistant Sales & Operations Manager</strong> &bull; West Elm</p><br>
+                        <p>
+                            &bull; Managed daily operations of a $10M/year retail store with 20+ employees, including delegating tasks, handling shift changes, and key holder responsibilities. <br> 
+                            &bull; Coached 10+ sales associates to enhance performance and customer satisfaction. <br>
+                            &bull; Trained and led 7+ stock associates, ensuring compliance with policies and procedures.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </section>
         
         <section class="contact">
             <div class="contact-container">
