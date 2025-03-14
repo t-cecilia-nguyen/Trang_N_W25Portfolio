@@ -765,3 +765,10 @@ td a {
         max-width: 530px;
     }
 }
+
+@media (max-width: 601px) {
+    .other-projects-container {
+        grid-template-columns: 1fr;
+        max-width: 250px;
+    }
+}
