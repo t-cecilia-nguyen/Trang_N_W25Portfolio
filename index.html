@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Zetta:wght@100..900&family=Tenor+Sans&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
 </head>
 <body>
 
@@ -39,7 +38,18 @@
         <div class="logo">
             <a href="./index.html">Trang Nguyen</a>
         </div>
+        <div class="header-right">
+            <i class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></i>
+        </div>
         <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academic-credentials">Academic Credentials</a></li>
+                <li><a href="#projects">Academic Work Experiences</a></li>
+                <li><a href="#professional">Professional Summary</a></li>
+            </ul>
+        </nav>
+        <nav id="secondary-nav">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#academic-credentials">Academic Credentials</a></li>
@@ -514,5 +524,6 @@
             document.querySelector('.hello-container').classList.add('animate');
         };
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

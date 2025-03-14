@@ -42,6 +42,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
         isExpanded = !isExpanded;
     });
+
+    // Hamburger menu + navigation
+    const hamburger = document.getElementById('hamburger');
+    const secondaryNav = document.getElementById('secondary-nav');
+
+    hamburger.addEventListener('click', () => {
+        event.stopPropagation();
+        secondaryNav.classList.toggle('active'); // Toggle visibility of secondary nav
+    });
+
+    // Close nav when clicking outside
+    document.addEventListener('click', (event) => {
+        if (secondaryNav.classList.contains('active') && !secondaryNav.contains(event.target)) {
+            secondaryNav.classList.remove('active');
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
+            // Hide the secondary nav if the window is resized larger
+            secondaryNav.classList.remove('active');
+        }
+    }); 
 });
 
 function updateDescriptionHeight() {

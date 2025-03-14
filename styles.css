@@ -116,6 +116,12 @@ header {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: center; /* Center the nav links */
+    flex-grow: 1;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -146,6 +152,43 @@ nav ul li a:hover, .header-right i:hover {
     color: var(--softBeige);
     font-size: 1.5rem;
     text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#secondary-nav {
+    display: none; /* Hide secondary nav by default */
+}
+
+
+#secondary-nav.active {
+    display: flex;
+    background-color: rgba(1, 46, 64, 0.7);
+}
+
+#secondary-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#secondary-nav ul li {
+    padding: 10px;
+}
+
+#secondary-nav ul li a {
+    color: var(--softBeige);
+    text-decoration: none;
+}
+
+#secondary-nav ul li a:hover {
+    color: var(--neonCyan);
+    transform: scale(1.1);
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -431,25 +474,7 @@ td a {
     right: 30px;
 }
 
-/* OTHER PROJECTS SECTION */
-
-#capstone-documentation {
-    text-align: center;
-    padding-top: 50px;
-}
-
-#capstone-documentation h2 {
-    font-size: 24px;
-    margin-bottom: 50px;
-    color: inherit;
-}
-
-.project {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    border-radius: 5px;
-}
+/* PROJECTS SECTION */
 
 .container-project:nth-child(odd) {
     flex-direction: row-reverse;
@@ -507,7 +532,19 @@ td a {
     cursor: pointer;
 }
 
-/* Project Cards */
+/* CAPSTONE DOCUMENTATION */
+
+#capstone-documentation {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#capstone-documentation h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: inherit;
+}
+
 .other-projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -689,3 +726,42 @@ td a {
     font-size: 0.8em;
 }
 
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1024px) {
+    .logo, nav {
+        display: none; /* Hide on smaller screens */
+    }
+
+    .hamburger {
+        display: block; /* Show on smaller screens */
+    }
+
+    #secondary-nav {
+        position: absolute;
+        top: 88.8px;
+        left: 0;
+        width: auto;
+        background-color: var(--deepNavy);
+        display: none; /* Initially hidden */
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #secondary-nav ul{
+        display: flex;
+        flex-direction: column; /* Stack vertically */
+        width: 100%;
+    }
+
+    #secondary-nav.active {
+        display: flex; /* Show when active */
+    }
+}
+
+@media (max-width: 900px) {
+    .other-projects-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 530px;
+    }
+}
