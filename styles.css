@@ -345,6 +345,13 @@ td a {
     color: inherit;
 }
 
+.academic-credentials-container a i {
+    transition: color 0.3s ease;
+}
+
+.academic-credentials-container a:hover i {
+    color: var(--neonCyan);
+}
 
 /* ACADEMIC WORK EXPERIENCES */
 
@@ -838,6 +845,14 @@ td a {
     .container-project:nth-child(even) .description-project {
         text-align: left;
         padding: 10px 0;
+    }
+
+    .container-project .tags-feature {
+        text-align: left;
+    }
+
+    .container-project:nth-child(odd) .icon {
+        justify-content: flex-start;
     }
 
     .other-projects-container {
