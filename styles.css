@@ -8,6 +8,27 @@
     --darkGrey: #222831;
 }
 
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--deepNavy);
+    border-radius: 20px;
+}
+
+/* Scroll bar dragged */
+::-webkit-scrollbar-thumb {
+    background: var(--tealBlue);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #02647a;
+}
+
 /* PAGE */
 
 * {
